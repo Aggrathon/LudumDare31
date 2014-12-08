@@ -1,0 +1,23 @@
+RAIN version 2.1.6.1 Release Notes
+--------------------------------
+
+6 amazing reasons to use RAIN:
+1) Full stack for character creation
+2) Frequent new samples and tutorials (http://rivaltheory.com/community)
+3) Timely updates and patches
+4) Sensors
+5) Off mesh pathfinding
+6) Behavior trees
+
+Changes and bug fixes:
+----------------------
+Changed default for Allow Off Graph Movement to true
+Changed Move node to correctly override default distance/angle
+Fix for one or both targets being off graph resetting the path finder.
+Fixed an issue with pathfinding not fully repathing.
+Fixed an issue with visualizations and deferred rendering.
+Added support for Unity 5 and added a check for the current Unity version.
+Added checks for null BTBinding list when loading/changing behavior trees.
+Added support for rebinding and reloading bindings at runtime.
+Added a new welcome window for fast access to relevant resources.  This only appears once but is always available from the help menu.
+Added RAINProjectState for values that change frequently that may need to be excluded from code repos.
