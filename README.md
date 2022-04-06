@@ -1,4 +1,4 @@
-# Bot War
+# Bot War - Ludum Dare 31
 
 My entry to the 31:st Ludum Dare game jam (theme: Entire Game on One Screen), following the compo rules (alone, from scratch, 48 hours).
 
